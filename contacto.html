@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
 		<title>Contacto</title>
 	</head>
 	<body>
-		
+		<div class="container">
 		<h1>Contactanos</h1>
 		
 		<form method="post" action="guarda_contacto.php" autocomplete="off">
@@ -16,10 +17,13 @@
 			<br />
 			Mensaje <textarea id="mensaje" name="mensaje"></textarea>
 			<br />
-			<button id="enviar" name="enviar">Enviar</button>
+			<button id="enviar" name="enviar" class="btn btn-primary">Enviar</button>
+			<a href="index.html"class="btn btn-success">Regresar</a>
 		</form>
 		
-		<a href="index.html">Regresar</a>
+		
+	</div> 
+		<script src="js/bootstrap.bundle.min.js"></script>
 		
 	</body>
 </html>
